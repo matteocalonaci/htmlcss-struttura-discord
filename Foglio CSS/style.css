@@ -1,0 +1,261 @@
+/******COMMON STYLE******/
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 1rem;
+    height: 29.2rem;
+    background-color: aqua;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/******PAGE ELEMENT STYLE******/
+
+/* inizio contenuto dell'header */
+.logo,
+.link,
+.login {
+    margin: 0;
+    padding: 0.5rem;
+    height: 2rem;
+    background-color: rgb(218, 135, 32);
+    border: 0.01rem solid black;
+}
+
+.logo {
+    text-align: left;
+    width: 15rem;
+}
+
+.login {
+    text-align: right;
+    width: 15rem;
+}
+
+.link {
+    min-width: 25rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 139);
+    height: 25rem;
+}
+
+.pink_window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 130, 238);
+    width: 40rem;
+    height: 20rem;
+    border: 0.01rem solid black;
+}
+
+/* fine contenuto dell'header */
+
+/* inizio contenuto main */
+
+/* inizio primo/terzo contenitore */
+
+main {
+    margin-top: 0.5rem;
+}
+
+.container_white {
+    display: block;
+    background-color: white;
+    height: auto;
+}
+
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 50rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.ciano_widow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    height: 20rem;
+    min-width: 30rem;
+    background-color: rgb(30, 144, 255);
+    border: 0.01rem solid black;
+
+}
+
+.peach_widow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    height: 20rem;
+    min-width: 20rem;
+    background-color: rgb(255, 192, 203);
+    border: 0.01rem solid black;
+
+}
+
+/* fine primo/terzo contenitore */
+
+/* inizio secondo contenitore */
+.container_gray {
+    display: block;
+    background-color: rgb(211, 211, 211);
+    height: auto;
+}
+
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(211, 211, 211);
+}
+
+/* fine secondo contenitore */
+
+/* inizio quarto contenitore */
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+}
+
+.green_window {
+    display: flex;
+    background-color: rgb(34, 139, 34);
+    min-width: 50rem;
+    min-height: 40rem;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    margin: 2rem;
+    border: 0.01rem solid black;
+
+}
+
+/* fine quarto contenitore */
+
+/* fine contenuto main */
+
+/* inizio footer */
+
+.container_blackgray {
+    display: flex;
+    background-color: rgb(35, 39, 42);
+    height: auto;
+}
+
+.ftr_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    background-color: rgb(35, 39, 42);
+}
+
+.azul_widow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cherryblossom_widow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    height: 20rem;
+    min-width: 20rem;
+    background-color: rgb(240, 128, 128);
+    border: 0.01rem solid black;
+
+}
+
+.blocchi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    height: 20rem;
+    min-width: 7.5rem;
+    border: 0.01rem solid black;
+    background-color: rgb(32, 178, 170);
+}
+
+hr {
+    background-color: white;
+}
+
+.ending {
+    display: flex;
+    background-color: rgb(35, 39, 42);
+    height: auto;
+    border-top: 0.01rem solid white;
+    border-bottom: 0.01rem solid white;
+
+}
+
+.last_container {
+    display: flex;
+    align-items: center;
+    width: 50rem;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    background-color: rgb(127, 255, 212);
+}
+
+#logo,
+.button {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: rgb(255, 182, 193);
+}
