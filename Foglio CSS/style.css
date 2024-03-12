@@ -16,8 +16,7 @@ nav {
     justify-content: center;
     width: 50rem;
     height: 3rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 
@@ -25,27 +24,27 @@ nav {
 /******PAGE ELEMENT STYLE******/
 
 /* inizio contenuto dell'header */
-.logo,
-.link,
-.login {
+.column_sx,
+.column_centre,
+.column_dx {
     margin: 0;
     padding: 0.5rem;
     height: 2rem;
     background-color: rgb(218, 135, 32);
-    border: 0.01rem solid black;
+    border: 0.01rem dashed black;
 }
 
-.logo {
+.column_sx {
     text-align: left;
     width: 15rem;
 }
 
-.login {
+.column_dx {
     text-align: right;
     width: 15rem;
 }
 
-.link {
+.column_centre {
     min-width: 25rem;
     text-align: center;
 }
@@ -65,10 +64,12 @@ nav {
     background-color: rgb(238, 130, 238);
     width: 40rem;
     height: 20rem;
-    border: 0.01rem solid black;
+    border: 0.01rem dashed black;
 }
 
 /* fine contenuto dell'header */
+
+
 
 /* inizio contenuto main */
 
@@ -92,8 +93,7 @@ main {
     flex-direction: row-reverse;
     width: 50rem;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     background-color: white;
 }
 
@@ -106,7 +106,7 @@ main {
     height: 20rem;
     min-width: 30rem;
     background-color: rgb(30, 144, 255);
-    border: 0.01rem solid black;
+    border: 0.01rem dashed black;
 
 }
 
@@ -119,11 +119,12 @@ main {
     height: 20rem;
     min-width: 20rem;
     background-color: rgb(255, 192, 203);
-    border: 0.01rem solid black;
+    border: 0.01rem dashed black;
 
 }
 
 /* fine primo/terzo contenitore */
+
 
 /* inizio secondo contenitore */
 .container_gray {
@@ -146,6 +147,7 @@ main {
 
 /* fine secondo contenitore */
 
+
 /* inizio quarto contenitore */
 .third-section {
     display: flex;
@@ -153,8 +155,7 @@ main {
     align-items: center;
     width: 50rem;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     background-color: lightgray;
 }
 
@@ -167,7 +168,7 @@ main {
     justify-content: center;
     align-self: center;
     margin: 2rem;
-    border: 0.01rem solid black;
+    border: 0.01rem dashed black;
 
 }
 
@@ -175,8 +176,10 @@ main {
 
 /* fine contenuto main */
 
+
 /* inizio footer */
 
+/* prima sezione footer */
 .container_blackgray {
     display: flex;
     background-color: rgb(35, 39, 42);
@@ -189,8 +192,7 @@ main {
     align-items: center;
     width: 50rem;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     margin-bottom: 1rem;
     background-color: rgb(35, 39, 42);
 }
@@ -210,7 +212,7 @@ main {
     height: 20rem;
     min-width: 20rem;
     background-color: rgb(240, 128, 128);
-    border: 0.01rem solid black;
+    border: 0.01rem dashed black;
 
 }
 
@@ -222,7 +224,7 @@ main {
     margin-top: 0.5rem;
     height: 20rem;
     min-width: 7.5rem;
-    border: 0.01rem solid black;
+    border: 0.01rem dashed black;
     background-color: rgb(32, 178, 170);
 }
 
@@ -230,7 +232,10 @@ hr {
     background-color: white;
 }
 
-.ending {
+/* fine prima sezione footer*/
+
+/* inizio seconda sezione footer */
+.container_bottom {
     display: flex;
     background-color: rgb(35, 39, 42);
     height: auto;
@@ -239,13 +244,12 @@ hr {
 
 }
 
-.last_container {
+.lst_section {
     display: flex;
     align-items: center;
     width: 50rem;
     height: 3rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     justify-content: space-between;
     background-color: rgb(127, 255, 212);
 }
@@ -258,4 +262,10 @@ hr {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     background-color: rgb(255, 182, 193);
+    border: 0.1rem dashed black;
 }
+
+footer
+/* fine seconda sezione  */
+
+/* fine footer */
